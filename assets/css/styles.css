@@ -176,11 +176,16 @@ td{
 
 /* FORMS */
 
+.form_container{
+    width: 50%;
+}
+
 label,
 input[type="text"],
 input[type="password"],
 input[type="email"],
-select{
+input[type="number"],
+select, textarea{
     display: block;
     width: 95%;
     margin-top: 2px;
@@ -190,6 +195,7 @@ select{
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="number"],
 select{
     border: 1px solid #c9c9c9;
     box-shadow: 0px 0px 2px #ccc inset;

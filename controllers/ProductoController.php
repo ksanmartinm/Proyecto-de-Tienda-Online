@@ -20,6 +20,13 @@ class productoController{
         Utils::isAdmin();
         require_once "views/producto/crear.php";
     }
+
+    public function save(){
+        if(isset($_POST)){
+            var_dump($_POST);
+
+        }
+    }
 }
 
 ?>
