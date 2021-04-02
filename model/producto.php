@@ -157,9 +157,6 @@
 
         $sql .= " WHERE id={$this->id};";
       
-        var_dump($sql);
-
-
         $save = $this->db->query($sql);
 
         $result = false;

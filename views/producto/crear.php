@@ -6,8 +6,6 @@
     <?php $url_action = base_url."producto/save"; ?>
 <?php endif;?>
 
-<?php var_dump($pro->nombre);?>
-
 <div class="form_container">
 
     
