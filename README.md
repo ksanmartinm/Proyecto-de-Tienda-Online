@@ -1,1 +1,1 @@
-# proyecto-php-poo-curso
+# Proyecto-de-Tienda-Online
